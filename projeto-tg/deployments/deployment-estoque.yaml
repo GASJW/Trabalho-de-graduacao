@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-estoque-deployment
+spec:
+  template:
+    metadata:
+      name: backend-estoque-loja
+      labels:
+        app: backend-estoque-loja
+    spec:
+      containers:
+        - name: backend-estoque-loja-containers
+          image: sidewinterof/backend-estoque-loja
+          ports:
+            - containerPort: 8081
+          livenessProbe:
+            httpGet:
+              path: /status
+              port: 8081
+            periodSeconds: 20
+            failureThreshold: 4
+            initialDelaySeconds: 20
+          readinessProbe:
+            httpGet:
+              path: /status
+              port: 8081
+            periodSeconds: 10
+            failureThreshold: 10
+            initialDelaySeconds: 5
+          resources:
+            limits:
+              cpu: "0.4"  
+            requests:
+              cpu: "0.2"
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend-estoque-loja

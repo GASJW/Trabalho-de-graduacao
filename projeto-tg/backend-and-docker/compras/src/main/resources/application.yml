@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: compras
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+  jmx:
+    enabled: false
+  datasource:
+    url: jdbc:mysql://10.0.0.186:3306/compras?allowPublicKeyRetrieval=true&sslMode=DISABLED
+    username: root
+    password: q1w2e3r4
+
+#  server.error.include-stacktrace=never
+#
+#  spring.datasource.url = jdbc:mysql://127.0.0.1:3306/compras?useTimezone=true&serverTimezone=UTC
+#  spring.datasource.username = root
+#  spring.datasource.password = q1w2e3r4
+#
+#  spring.jpa.hibernate.ddl-auto = validate
+#  spring.jpa.show-sql = true
+#  spring.jpa.properties.hibernate.format_sql = true

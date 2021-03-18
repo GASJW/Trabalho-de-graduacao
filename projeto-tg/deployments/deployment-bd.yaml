@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: banco-de-dados-loja-deployment
+spec:
+  template:
+    metadata:
+      name: banco-de-dados-loja
+      labels:
+        app: banco-de-dados-loja
+    spec:
+      containers:
+        - name: banco-de-dados-loja-container
+          image: sidewinterof/mysql-bd
+          ports:
+            - containerPort: 3306
+          envFrom:
+            - configMapRef:
+                name: db-configmap
+  selector:
+    matchLabels:
+      app: banco-de-dados-loja

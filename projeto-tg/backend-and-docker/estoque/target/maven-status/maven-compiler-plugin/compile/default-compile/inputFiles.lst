@@ -1,0 +1,17 @@
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/service/ProdutoService.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/controller/ProdutoController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/repository/ProdutoRepository.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/repository/VendaRepository.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/model/Venda.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/controller/VendaController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/controller/StatusController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/model/ItemVenda.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/service/ItemVendaService.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/controller/ItemVendaController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/EstoqueApplication.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/repository/ItemVendaRepository.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/service/VendaService.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/exception/RecursoNaoEncontradoException.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/WebConfig.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/model/Produto.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/estoque/src/main/java/com/fatec/estoque/endpoint/exception/IndisponivelException.java

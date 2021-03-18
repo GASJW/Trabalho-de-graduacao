@@ -1,0 +1,17 @@
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/controller/StatusTesteController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/controller/CarrinhoDeCompraController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/WebConfig.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/controller/StatusController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/repository/CarrinhoDeCompraRepository.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/model/Usuario.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/service/CarrinhoDeCompraService.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/exception/RecursoNaoEncontradoException.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/service/ItemCarrinhoDeCompraService.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/ComprasApplication.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/controller/UsuarioController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/model/CarrinhoDeCompra.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/service/UsuarioService.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/repository/UsuarioRepository.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/repository/ItemCarrinhoDeCompraRepository.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/controller/ItemCarrinhoDeCompraController.java
+/Users/mateusvinicius/Desktop/projeto-tg/backend-and-docker/compras/src/main/java/com/fatec/compras/endpoint/model/ItemCarrinhoDeCompra.java

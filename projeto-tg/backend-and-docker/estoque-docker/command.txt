@@ -1,0 +1,1 @@
+docker run -it -p 8081:80 --network sandbox sidewinterof/backend-estoque-loja:latest

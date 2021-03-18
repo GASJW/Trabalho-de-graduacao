@@ -1,0 +1,17 @@
+com/fatec/compras/ComprasApplication.class
+com/fatec/compras/endpoint/model/Usuario.class
+com/fatec/compras/endpoint/exception/RecursoNaoEncontradoException.class
+com/fatec/compras/endpoint/repository/CarrinhoDeCompraRepository.class
+com/fatec/compras/endpoint/service/UsuarioService.class
+com/fatec/compras/endpoint/controller/StatusTesteController.class
+com/fatec/compras/endpoint/repository/UsuarioRepository.class
+com/fatec/compras/endpoint/model/ItemCarrinhoDeCompra.class
+com/fatec/compras/endpoint/controller/StatusController.class
+com/fatec/compras/endpoint/WebConfig.class
+com/fatec/compras/endpoint/controller/ItemCarrinhoDeCompraController.class
+com/fatec/compras/endpoint/model/CarrinhoDeCompra.class
+com/fatec/compras/endpoint/service/CarrinhoDeCompraService.class
+com/fatec/compras/endpoint/controller/UsuarioController.class
+com/fatec/compras/endpoint/service/ItemCarrinhoDeCompraService.class
+com/fatec/compras/endpoint/repository/ItemCarrinhoDeCompraRepository.class
+com/fatec/compras/endpoint/controller/CarrinhoDeCompraController.class

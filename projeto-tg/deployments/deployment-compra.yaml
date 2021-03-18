@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-compra-deployment
+spec:
+  template:
+    metadata:
+      name: backend-compra-loja
+      labels:
+        app: backend-compra-loja
+    spec:
+      containers:
+        - name: backend-compra-loja-containers
+          image: sidewinterof/backend-compra-loja:latest
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /status
+              port: 8080
+            periodSeconds: 30
+            failureThreshold: 5
+            initialDelaySeconds: 20
+          readinessProbe:
+            httpGet:
+              path: /status
+              port: 8080
+            periodSeconds: 10
+            failureThreshold: 10
+            initialDelaySeconds: 5
+          resources:
+            limits:
+              cpu: "0.4"  
+            requests:
+              cpu: "0.2"
+  replicas: 2
+  selector:
+    matchLabels:
+      app: backend-compra-loja
